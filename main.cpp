@@ -22,6 +22,9 @@ int main(int argc, char *argv[])
     auto filter_contrast = new ContrastOmp();
     auto filter_edge_detection = new EdgeDetectionOmp();
 
+    int* lut;
+    if (strcmp(argv[2], "kontrast") == 0)
+        lut = filter_contrast->lut(1.0);
 
     for(;;) {
 
@@ -37,7 +40,7 @@ int main(int argc, char *argv[])
         } else if (strcmp(argv[2], "rozmycie") == 0) {
             filter_blur->apply(frame);
         } else if (strcmp(argv[2], "kontrast") == 0) {
-            filter_contrast->apply(frame, 1.0);
+            filter_contrast->apply(frame, lut);
         } else if (strcmp(argv[2], "wykrywanie-krawedzi") == 0) {
             frame = filter_edge_detection->getEdge(frame);
         }

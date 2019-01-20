@@ -10,7 +10,8 @@
 
 class ContrastOmp {
 public:
-    void apply(cv::Mat frame, double contrast);
+    void apply(cv::Mat frame, int* LUT);
+    int* lut(double contrast);
 };
 
 
