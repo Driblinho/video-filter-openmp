@@ -6,71 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/black_white_omp.cpp
-omp.h
--
-black_white_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/black_white_omp.h
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/black_white_omp.h
-opencv2/core/mat.hpp
--
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/blur_omp.cpp
-blur_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/blur_omp.h
-filter_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.h
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/blur_omp.h
-opencv2/core/mat.hpp
--
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.cpp
-omp.h
--
-contrast_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.h
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.h
-opencv2/core/mat.hpp
--
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.cpp
-omp.h
--
-filter_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.h
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.h
-opencv2/core/mat.hpp
--
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/sepia_omp.cpp
-omp.h
--
-sepia_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/sepia_omp.h
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/sepia_omp.h
-opencv2/core/mat.hpp
--
-
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/main.cpp
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.cpp
 iostream
 -
-opencv2/opencv.hpp
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/opencv2/opencv.hpp
-opencv2/imgproc.hpp
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/opencv2/imgproc.hpp
-Filter/OpenMP/black_white_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/black_white_omp.h
-Filter/OpenMP/sepia_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/sepia_omp.h
-Filter/OpenMP/blur_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/blur_omp.h
-Filter/OpenMP/contrast_omp.h
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.h
+cmath
+-
+vector
+-
+omp.h
+-
+opencv2/imgproc/imgproc.hpp
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/opencv2/highgui/highgui.hpp
+edge_detection_omp.h
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.h
+
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.h
+opencv2/imgproc/imgproc.hpp
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/opencv2/highgui/highgui.hpp
+vector
+-
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -868,6 +826,10 @@ opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 /usr/include/opencv4/opencv2/opencv2/videoio.hpp
 
+/usr/include/opencv4/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+/usr/include/opencv4/opencv2/highgui/opencv2/highgui.hpp
+
 /usr/include/opencv4/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 /usr/include/opencv4/opencv2/opencv2/core.hpp
@@ -875,6 +837,10 @@ opencv2/core.hpp
 /usr/include/opencv4/opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/include/opencv4/opencv2/opencv2/core.hpp
+
+/usr/include/opencv4/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/include/opencv4/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/include/opencv4/opencv2/ml.hpp
 opencv2/core.hpp

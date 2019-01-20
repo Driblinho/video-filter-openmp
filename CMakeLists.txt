@@ -18,7 +18,7 @@ set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/black_white_omp.cpp Filter/OpenMP
 set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/sepia_omp.cpp Filter/OpenMP/sepia_omp.h)
 set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/blur_omp.cpp Filter/OpenMP/blur_omp.h)
 set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/contrast_omp.cpp Filter/OpenMP/contrast_omp.h)
-#set(SOURCE_FILES ${SOURCE_FILES} Filter/edge_detection.cpp Filter/edge_detection.h)
+set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/edge_detection_omp.cpp Filter/OpenMP/edge_detection_omp.h)
 set(SOURCE_FILES ${SOURCE_FILES}  Filter/OpenMP/filter_omp.cpp Filter/OpenMP/filter_omp.h)
 add_executable(video_filter_omp ${SOURCE_FILES})
 

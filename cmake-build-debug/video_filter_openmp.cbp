@@ -106,6 +106,12 @@
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.h">
 			<Option target="video_filter_omp"/>
 		</Unit>
+		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.cpp">
+			<Option target="video_filter_omp"/>
+		</Unit>
+		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.h">
+			<Option target="video_filter_omp"/>
+		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.cpp">
 			<Option target="video_filter_omp"/>
 		</Unit>

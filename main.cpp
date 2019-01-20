@@ -5,7 +5,8 @@
 #include "Filter/OpenMP/sepia_omp.h"
 #include "Filter/OpenMP/blur_omp.h"
 #include "Filter/OpenMP/contrast_omp.h"
-//#include "Filter/OpenMP/edge_detection_omp.h"
+#include "Filter/OpenMP/edge_detection_omp.h"
+
 
 using namespace cv;
 
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
     auto filter_sepia = new SepiaOmp();
     auto filter_blur = new BlurOmp();
     auto filter_contrast = new ContrastOmp();
-    //auto filter_edge_detection = new EdgeDetectionOmp();
+    auto filter_edge_detection = new EdgeDetectionOmp();
 
 
     for(;;) {
@@ -36,7 +37,7 @@ int main(int argc, char *argv[])
         } else if (strcmp(argv[2], "kontrast") == 0) {
             filter_contrast->apply(frame, 1.0);
         } else if (strcmp(argv[2], "wykrywanie-krawedzi") == 0) {
-            //filter_edge_detection->apply(frame);
+            frame = filter_edge_detection->getEdge(frame);
         }
 
 

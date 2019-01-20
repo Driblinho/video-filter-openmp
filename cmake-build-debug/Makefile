@@ -204,6 +204,33 @@ Filter/OpenMP/contrast_omp.cpp.s:
 	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.s
 .PHONY : Filter/OpenMP/contrast_omp.cpp.s
 
+Filter/OpenMP/edge_detection_omp.o: Filter/OpenMP/edge_detection_omp.cpp.o
+
+.PHONY : Filter/OpenMP/edge_detection_omp.o
+
+# target to build an object file
+Filter/OpenMP/edge_detection_omp.cpp.o:
+	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o
+.PHONY : Filter/OpenMP/edge_detection_omp.cpp.o
+
+Filter/OpenMP/edge_detection_omp.i: Filter/OpenMP/edge_detection_omp.cpp.i
+
+.PHONY : Filter/OpenMP/edge_detection_omp.i
+
+# target to preprocess a source file
+Filter/OpenMP/edge_detection_omp.cpp.i:
+	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.i
+.PHONY : Filter/OpenMP/edge_detection_omp.cpp.i
+
+Filter/OpenMP/edge_detection_omp.s: Filter/OpenMP/edge_detection_omp.cpp.s
+
+.PHONY : Filter/OpenMP/edge_detection_omp.s
+
+# target to generate assembly for a file
+Filter/OpenMP/edge_detection_omp.cpp.s:
+	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.s
+.PHONY : Filter/OpenMP/edge_detection_omp.cpp.s
+
 Filter/OpenMP/filter_omp.o: Filter/OpenMP/filter_omp.cpp.o
 
 .PHONY : Filter/OpenMP/filter_omp.o
@@ -303,6 +330,9 @@ help:
 	@echo "... Filter/OpenMP/contrast_omp.o"
 	@echo "... Filter/OpenMP/contrast_omp.i"
 	@echo "... Filter/OpenMP/contrast_omp.s"
+	@echo "... Filter/OpenMP/edge_detection_omp.o"
+	@echo "... Filter/OpenMP/edge_detection_omp.i"
+	@echo "... Filter/OpenMP/edge_detection_omp.s"
 	@echo "... Filter/OpenMP/filter_omp.o"
 	@echo "... Filter/OpenMP/filter_omp.i"
 	@echo "... Filter/OpenMP/filter_omp.s"

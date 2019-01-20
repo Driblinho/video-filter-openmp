@@ -122,9 +122,22 @@ CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.cpp" -o CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.s
 
+CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o: CMakeFiles/video_filter_omp.dir/flags.make
+CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o: ../Filter/OpenMP/edge_detection_omp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.cpp"
+
+CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.cpp" > CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.i
+
+CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.cpp" -o CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.s
+
 CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o: CMakeFiles/video_filter_omp.dir/flags.make
 CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o: ../Filter/OpenMP/filter_omp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.cpp"
 
 CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.i: cmake_force
@@ -142,6 +155,7 @@ video_filter_omp_OBJECTS = \
 "CMakeFiles/video_filter_omp.dir/Filter/OpenMP/sepia_omp.cpp.o" \
 "CMakeFiles/video_filter_omp.dir/Filter/OpenMP/blur_omp.cpp.o" \
 "CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.o" \
+"CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o" \
 "CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o"
 
 # External object files for target video_filter_omp
@@ -152,6 +166,7 @@ video_filter_omp: CMakeFiles/video_filter_omp.dir/Filter/OpenMP/black_white_omp.
 video_filter_omp: CMakeFiles/video_filter_omp.dir/Filter/OpenMP/sepia_omp.cpp.o
 video_filter_omp: CMakeFiles/video_filter_omp.dir/Filter/OpenMP/blur_omp.cpp.o
 video_filter_omp: CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.o
+video_filter_omp: CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o
 video_filter_omp: CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o
 video_filter_omp: CMakeFiles/video_filter_omp.dir/build.make
 video_filter_omp: /usr/lib/libopencv_gapi.so.4.0.1
@@ -203,7 +218,7 @@ video_filter_omp: /usr/lib/libopencv_photo.so.4.0.1
 video_filter_omp: /usr/lib/libopencv_imgproc.so.4.0.1
 video_filter_omp: /usr/lib/libopencv_core.so.4.0.1
 video_filter_omp: CMakeFiles/video_filter_omp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable video_filter_omp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable video_filter_omp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/video_filter_omp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
