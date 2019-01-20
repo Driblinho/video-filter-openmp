@@ -5,8 +5,7 @@ void FilterOmp::apply(cv::Mat frame) {
     int chunk = 100000;
     omp_set_num_threads(4);
     #pragma omp parallel for  \
-    schedule(dynamic, chunk) \
-    collapse(2)
+    schedule(dynamic, chunk)
     for (int i = 0; i < frame.rows; ++i) {
         for (int j = 0; j < frame.cols; ++j) {
 
@@ -25,13 +24,11 @@ void FilterOmp::apply(cv::Mat frame) {
                         1,2,4,2,1,
                         1,1,2,1,1
                 };
+                filterMaskSize = 5;
             }
 
-
-            auto filterSize = static_cast<int>(sqrt(sizeof(filterMask)));
-            int margin = ((filterSize-1)/2);
+            int margin = ((filterMaskSize-1)/2);
             int fidx=0;
-
 
             for (int k = i - margin; k <= i + margin; ++k) {
                 for (int l = j-margin; l <= j + margin; ++l) {
@@ -47,9 +44,9 @@ void FilterOmp::apply(cv::Mat frame) {
                 }
             }
 
-            sumR/=filterSize*filterSize;
-            sumG/=filterSize*filterSize;
-            sumB/=filterSize*filterSize;
+            sumR/=filterMaskSize*filterMaskSize;
+            sumG/=filterMaskSize*filterMaskSize;
+            sumB/=filterMaskSize*filterMaskSize;
 
             centerPxl[2] = static_cast<unsigned char>((sumR > 255) ? 255 : sumR);
             centerPxl[1] = static_cast<unsigned char>((sumG > 255) ? 255 : sumG);
@@ -58,6 +55,7 @@ void FilterOmp::apply(cv::Mat frame) {
     }
 }
 
-void FilterOmp::setMask(int *mask) {
+void FilterOmp::setMask(int *mask, int filterMaskSize) {
     this->filterMask = mask;
+    this->filterMaskSize = filterMaskSize;
 }
