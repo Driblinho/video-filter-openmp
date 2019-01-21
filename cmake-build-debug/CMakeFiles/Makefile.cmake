@@ -54,5 +54,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/video_filter_omp.dir/DependInfo.cmake"
+  "CMakeFiles/video-filter-omp.dir/DependInfo.cmake"
   )

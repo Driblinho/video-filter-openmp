@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named video_filter_omp
+# Target rules for targets named video-filter-omp
 
 # Build rule for target.
-video_filter_omp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 video_filter_omp
-.PHONY : video_filter_omp
+video-filter-omp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video-filter-omp
+.PHONY : video-filter-omp
 
 # fast build rule for target.
-video_filter_omp/fast:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/build
-.PHONY : video_filter_omp/fast
+video-filter-omp/fast:
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/build
+.PHONY : video-filter-omp/fast
 
 Filter/OpenMP/black_white_omp.o: Filter/OpenMP/black_white_omp.cpp.o
 
@@ -129,7 +129,7 @@ Filter/OpenMP/black_white_omp.o: Filter/OpenMP/black_white_omp.cpp.o
 
 # target to build an object file
 Filter/OpenMP/black_white_omp.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/black_white_omp.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/black_white_omp.cpp.o
 .PHONY : Filter/OpenMP/black_white_omp.cpp.o
 
 Filter/OpenMP/black_white_omp.i: Filter/OpenMP/black_white_omp.cpp.i
@@ -138,7 +138,7 @@ Filter/OpenMP/black_white_omp.i: Filter/OpenMP/black_white_omp.cpp.i
 
 # target to preprocess a source file
 Filter/OpenMP/black_white_omp.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/black_white_omp.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/black_white_omp.cpp.i
 .PHONY : Filter/OpenMP/black_white_omp.cpp.i
 
 Filter/OpenMP/black_white_omp.s: Filter/OpenMP/black_white_omp.cpp.s
@@ -147,7 +147,7 @@ Filter/OpenMP/black_white_omp.s: Filter/OpenMP/black_white_omp.cpp.s
 
 # target to generate assembly for a file
 Filter/OpenMP/black_white_omp.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/black_white_omp.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/black_white_omp.cpp.s
 .PHONY : Filter/OpenMP/black_white_omp.cpp.s
 
 Filter/OpenMP/blur_omp.o: Filter/OpenMP/blur_omp.cpp.o
@@ -156,7 +156,7 @@ Filter/OpenMP/blur_omp.o: Filter/OpenMP/blur_omp.cpp.o
 
 # target to build an object file
 Filter/OpenMP/blur_omp.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/blur_omp.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/blur_omp.cpp.o
 .PHONY : Filter/OpenMP/blur_omp.cpp.o
 
 Filter/OpenMP/blur_omp.i: Filter/OpenMP/blur_omp.cpp.i
@@ -165,7 +165,7 @@ Filter/OpenMP/blur_omp.i: Filter/OpenMP/blur_omp.cpp.i
 
 # target to preprocess a source file
 Filter/OpenMP/blur_omp.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/blur_omp.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/blur_omp.cpp.i
 .PHONY : Filter/OpenMP/blur_omp.cpp.i
 
 Filter/OpenMP/blur_omp.s: Filter/OpenMP/blur_omp.cpp.s
@@ -174,7 +174,7 @@ Filter/OpenMP/blur_omp.s: Filter/OpenMP/blur_omp.cpp.s
 
 # target to generate assembly for a file
 Filter/OpenMP/blur_omp.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/blur_omp.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/blur_omp.cpp.s
 .PHONY : Filter/OpenMP/blur_omp.cpp.s
 
 Filter/OpenMP/contrast_omp.o: Filter/OpenMP/contrast_omp.cpp.o
@@ -183,7 +183,7 @@ Filter/OpenMP/contrast_omp.o: Filter/OpenMP/contrast_omp.cpp.o
 
 # target to build an object file
 Filter/OpenMP/contrast_omp.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/contrast_omp.cpp.o
 .PHONY : Filter/OpenMP/contrast_omp.cpp.o
 
 Filter/OpenMP/contrast_omp.i: Filter/OpenMP/contrast_omp.cpp.i
@@ -192,7 +192,7 @@ Filter/OpenMP/contrast_omp.i: Filter/OpenMP/contrast_omp.cpp.i
 
 # target to preprocess a source file
 Filter/OpenMP/contrast_omp.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/contrast_omp.cpp.i
 .PHONY : Filter/OpenMP/contrast_omp.cpp.i
 
 Filter/OpenMP/contrast_omp.s: Filter/OpenMP/contrast_omp.cpp.s
@@ -201,7 +201,7 @@ Filter/OpenMP/contrast_omp.s: Filter/OpenMP/contrast_omp.cpp.s
 
 # target to generate assembly for a file
 Filter/OpenMP/contrast_omp.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/contrast_omp.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/contrast_omp.cpp.s
 .PHONY : Filter/OpenMP/contrast_omp.cpp.s
 
 Filter/OpenMP/edge_detection_omp.o: Filter/OpenMP/edge_detection_omp.cpp.o
@@ -210,7 +210,7 @@ Filter/OpenMP/edge_detection_omp.o: Filter/OpenMP/edge_detection_omp.cpp.o
 
 # target to build an object file
 Filter/OpenMP/edge_detection_omp.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/edge_detection_omp.cpp.o
 .PHONY : Filter/OpenMP/edge_detection_omp.cpp.o
 
 Filter/OpenMP/edge_detection_omp.i: Filter/OpenMP/edge_detection_omp.cpp.i
@@ -219,7 +219,7 @@ Filter/OpenMP/edge_detection_omp.i: Filter/OpenMP/edge_detection_omp.cpp.i
 
 # target to preprocess a source file
 Filter/OpenMP/edge_detection_omp.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/edge_detection_omp.cpp.i
 .PHONY : Filter/OpenMP/edge_detection_omp.cpp.i
 
 Filter/OpenMP/edge_detection_omp.s: Filter/OpenMP/edge_detection_omp.cpp.s
@@ -228,7 +228,7 @@ Filter/OpenMP/edge_detection_omp.s: Filter/OpenMP/edge_detection_omp.cpp.s
 
 # target to generate assembly for a file
 Filter/OpenMP/edge_detection_omp.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/edge_detection_omp.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/edge_detection_omp.cpp.s
 .PHONY : Filter/OpenMP/edge_detection_omp.cpp.s
 
 Filter/OpenMP/filter_omp.o: Filter/OpenMP/filter_omp.cpp.o
@@ -237,7 +237,7 @@ Filter/OpenMP/filter_omp.o: Filter/OpenMP/filter_omp.cpp.o
 
 # target to build an object file
 Filter/OpenMP/filter_omp.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/filter_omp.cpp.o
 .PHONY : Filter/OpenMP/filter_omp.cpp.o
 
 Filter/OpenMP/filter_omp.i: Filter/OpenMP/filter_omp.cpp.i
@@ -246,7 +246,7 @@ Filter/OpenMP/filter_omp.i: Filter/OpenMP/filter_omp.cpp.i
 
 # target to preprocess a source file
 Filter/OpenMP/filter_omp.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/filter_omp.cpp.i
 .PHONY : Filter/OpenMP/filter_omp.cpp.i
 
 Filter/OpenMP/filter_omp.s: Filter/OpenMP/filter_omp.cpp.s
@@ -255,7 +255,7 @@ Filter/OpenMP/filter_omp.s: Filter/OpenMP/filter_omp.cpp.s
 
 # target to generate assembly for a file
 Filter/OpenMP/filter_omp.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/filter_omp.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/filter_omp.cpp.s
 .PHONY : Filter/OpenMP/filter_omp.cpp.s
 
 Filter/OpenMP/sepia_omp.o: Filter/OpenMP/sepia_omp.cpp.o
@@ -264,7 +264,7 @@ Filter/OpenMP/sepia_omp.o: Filter/OpenMP/sepia_omp.cpp.o
 
 # target to build an object file
 Filter/OpenMP/sepia_omp.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/sepia_omp.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/sepia_omp.cpp.o
 .PHONY : Filter/OpenMP/sepia_omp.cpp.o
 
 Filter/OpenMP/sepia_omp.i: Filter/OpenMP/sepia_omp.cpp.i
@@ -273,7 +273,7 @@ Filter/OpenMP/sepia_omp.i: Filter/OpenMP/sepia_omp.cpp.i
 
 # target to preprocess a source file
 Filter/OpenMP/sepia_omp.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/sepia_omp.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/sepia_omp.cpp.i
 .PHONY : Filter/OpenMP/sepia_omp.cpp.i
 
 Filter/OpenMP/sepia_omp.s: Filter/OpenMP/sepia_omp.cpp.s
@@ -282,7 +282,7 @@ Filter/OpenMP/sepia_omp.s: Filter/OpenMP/sepia_omp.cpp.s
 
 # target to generate assembly for a file
 Filter/OpenMP/sepia_omp.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/Filter/OpenMP/sepia_omp.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/Filter/OpenMP/sepia_omp.cpp.s
 .PHONY : Filter/OpenMP/sepia_omp.cpp.s
 
 main.o: main.cpp.o
@@ -291,7 +291,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -300,7 +300,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -309,7 +309,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/video_filter_omp.dir/build.make CMakeFiles/video_filter_omp.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/video-filter-omp.dir/build.make CMakeFiles/video-filter-omp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -319,7 +319,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... video_filter_omp"
+	@echo "... video-filter-omp"
 	@echo "... edit_cache"
 	@echo "... Filter/OpenMP/black_white_omp.o"
 	@echo "... Filter/OpenMP/black_white_omp.i"

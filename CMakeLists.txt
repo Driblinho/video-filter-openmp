@@ -20,7 +20,7 @@ set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/blur_omp.cpp Filter/OpenMP/blur_o
 set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/contrast_omp.cpp Filter/OpenMP/contrast_omp.h)
 set(SOURCE_FILES ${SOURCE_FILES} Filter/OpenMP/edge_detection_omp.cpp Filter/OpenMP/edge_detection_omp.h)
 set(SOURCE_FILES ${SOURCE_FILES}  Filter/OpenMP/filter_omp.cpp Filter/OpenMP/filter_omp.h)
-add_executable(video_filter_omp ${SOURCE_FILES})
+add_executable(video-filter-omp ${SOURCE_FILES})
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-target_link_libraries(video_filter_omp ${OpenCV_LIBS} )
+target_link_libraries(video-filter-omp ${OpenCV_LIBS} )

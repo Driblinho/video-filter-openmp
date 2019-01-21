@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="video_filter_omp">
-				<Option output="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/video_filter_omp" prefix_auto="0" extension_auto="0"/>
+			<Target title="video-filter-omp">
+				<Option output="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/video-filter-omp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -46,14 +46,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.4.1/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 video_filter_omp"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 video-filter-omp"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="video_filter_omp/fast">
-				<Option output="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/video_filter_omp" prefix_auto="0" extension_auto="0"/>
+			<Target title="video-filter-omp/fast">
+				<Option output="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/video-filter-omp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,7 +71,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.4.1/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 video_filter_omp/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 video-filter-omp/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ireq/Studia\ PK/SEM_2/Programowanie\ Równoległe\ i\ Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -89,43 +89,43 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/black_white_omp.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/black_white_omp.h">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/blur_omp.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/blur_omp.h">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/contrast_omp.h">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/edge_detection_omp.h">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/filter_omp.h">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/sepia_omp.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/Filter/OpenMP/sepia_omp.h">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/main.cpp">
-			<Option target="video_filter_omp"/>
+			<Option target="video-filter-omp"/>
 		</Unit>
 		<Unit filename="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
