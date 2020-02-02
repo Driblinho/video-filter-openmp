@@ -1,3 +1,0 @@
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles/video-filter-omp.dir
-/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-openmp/cmake-build-debug/CMakeFiles/edit_cache.dir
